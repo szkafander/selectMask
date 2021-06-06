@@ -1,0 +1,25 @@
+#container {
+    position: relative;
+}
+
+.marker {
+    background: rgba(0,0,0,0);
+    border-style: solid;
+    border-radius: 100%;
+    border-color: rgb(144, 238, 144, 0.75);
+    position: absolute;
+}
+
+.marker:hover {
+    border-color: lightsalmon;
+}
+
+.line {
+    background: lightgreen;
+    opacity: 0.75;
+    position: absolute;
+}
+
+.line:hover {
+    background: lightsalmon;
+}
